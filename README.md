@@ -52,8 +52,8 @@ Reports generated for this project are made in allure:
 
 https://github.com/allure-framework/allure2/releases
 
-Please, add allure path to environment variables:
+Download files from latest release and unzip them.
 
-File required is included in this repository
+Then, add allure path to environment variables:
 
 ..\allure-2.29.0\bin
