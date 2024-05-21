@@ -26,11 +26,34 @@ test steps on the given website. In addition to this, creation of RTM associated
   pip -r requirements.txt
   ```
 - web drivers (Chrome, Firefox and Opera) (used by Selenium).
+  - Chrome path: 'E:/Chromedriver/chromedriver.exe'
+  - Firefox path: 'E:/Geckodriver/geckodriver.exe'
+  - Opera path: 'E:/Operadriver/operadriver.exe'
+
+Note: paths variables are located in features/testdata.py.
 
 # How to execute:
 - cd Stori folder
-- Execute using below command:
+- Execute using command below according to browser necessities:
 ``` Python
-python .\tests\main.py --browser chrome
+python .\test_stori_challenge.py --browser chrome
+python .\test_stori_challenge.py --browser firefox
+python .\test_stori_challenge.py --browser opera
 ```
-- After execution, output reports will be generated in Reports folder
+Note: by default browser argument is chrome.
+
+After execution, output reports will be generated in Reports folder:
+
+Report is located in 'reports/index.html'.
+
+
+## How to generate reports:
+Reports generated for this project are made in allure:
+
+https://github.com/allure-framework/allure2/releases
+
+Please, add allure path to environment variables:
+
+File required is included in this repository
+
+..\allure-2.29.0\bin

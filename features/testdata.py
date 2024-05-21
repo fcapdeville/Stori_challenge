@@ -1,3 +1,7 @@
+geckodriver_path = "E:/Geckodriver/geckodriver.exe"
+chromedriver_path = "E:/Chromedriver/chromedriver.exe"
+operadriver_path = "E:/Operadriver/operadriver.exe"
+
 suggestion_class_validation = ["Me", "Uni", "Uni"]
 
 dropdown_possible_options = ["2", "3"]
