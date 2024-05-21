@@ -11,7 +11,7 @@ class PagesSwitchToAlert:
     def type_text_and_click(self, name):
         """
         Switch To Alert - Type "Stori Card" and click {name} button
-        :param name:
+        :param name: str - 'Alert' or 'Confirm'
         :return: none
         """
         # region 'name' validation
