@@ -46,6 +46,10 @@ After execution, output reports will be generated in Reports folder:
 
 Report is located in 'reports/index.html'.
 
+## How to open reports:
+After an execution, a report is generated in this project.
+
+To open a report, open reports/allure_report/index.html File.
 
 ## How to generate reports:
 Reports generated for this project are made in allure:
